@@ -1,0 +1,99 @@
+/* Normolize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* General */
+.container {
+  width: 1330px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  padding: 25px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu,
+.header .container .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* .header .container .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+} */
+
+.header .container .menu li a {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.header .container .actions p a .fa-cart-shopping {
+  color: #000000;
+}
+
+.header .container .actions p a .fa-heart {
+  color: #ff0000;
+}
+
+/* Hero */
+.hero {
+  background-image: url(./images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 190px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero .container .title {
+  font-size: 43px;
+  font-weight: 400;
+}
+
+.hero .container .subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 12px 0 28px;
+}
+
+.hero .container .btn {
+  outline: 0;
+  border: 0;
+  background: 0;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
